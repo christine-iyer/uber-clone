@@ -8,6 +8,8 @@ const ViewBoxesWithColorAndText = () => {
       <SafeAreaView style={{height: 100, flexDirection: 'row'}}>
         <View style={{backgroundColor: 'blue', flex: 0.2}} />
         <View style={{backgroundColor: 'red', flex: 0.4}} />
+        <Text className='text-black text-3xl'>Hello World!</Text>
+        <Text>Hello World!</Text>
         <Text>Hello World!</Text>
       </SafeAreaView>
     </SafeAreaProvider>
