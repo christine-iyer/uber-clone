@@ -1,12 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
-    "paths": {
-      "@/*": [
-        "./*"
-      ]
-    }
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": false
   },
   "include": [
     "**/*.ts",
